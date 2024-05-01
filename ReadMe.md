@@ -613,3 +613,5 @@ de pouvoir coder en lua pour interragir avec ce que vous faites en C.
 Mais cette utilisation va se faire dans un autre workshop...
 
 A SUIVRE (ou pas)
+
+Made with <3 by paulogarithm
