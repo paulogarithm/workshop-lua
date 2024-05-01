@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Bienvenue au petit bain de Epitech ! Au plat du jour: Le **lua** !
+Bienvenue dans ce workshop ! Au plat du jour: Le **lua** !
 2h30 de pur plaisir où vous allez apprendre les
 bases de la programation, avec le meilleur langage du monde.
 
