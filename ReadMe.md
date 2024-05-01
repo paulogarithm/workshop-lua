@@ -257,7 +257,7 @@ L'enfant devrait avoir "baby" + le nom du premier parent. Son âge doit être à
 Créez votre table human qui effectue le code attendu!
 
 
-## Give me you mail
+## Gimme your mail
 
 Les mails sont très utiles, mais des personnes malicieuses vous donneront
 sûrement un faux mail pour eviter de recevoir des spams de votre part.
@@ -369,7 +369,7 @@ similaire (mais en plus dur et plus long mdr).
 
 **N'abandonnez pas!** C'est le dernier exercice !
 
-A la fin, je vous expliqerais le vrai pouvoir du lua...
+A la fin, je vous expliquerais le vrai pouvoir du lua...
 
 BREF Voici l'exercice de l'enfer: __**Planet Mining**__
 
