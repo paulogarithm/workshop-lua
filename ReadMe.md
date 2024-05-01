@@ -520,7 +520,7 @@ soit.
 
 Les cacas sont vidés de tous leurs CRE.
 
-A la fin du programme, il dit "Caca ramassée !".
+A la fin du programme, on dit "Caca ramassée !".
 
 > A la fin du programme, ou quand votre objet est initialisé à nil et que
 > la fonction `collectgarbage("collect")` est appellée.
