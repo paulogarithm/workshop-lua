@@ -27,7 +27,8 @@ affichez à place `fleur` pour prout et `papillon` pour caca.
 Faites juste la commande suivante:
 ```sh
 sudo dnf install lua5.4 liblua5.4-dev -y ||
-sudo apt install lua5.4 liblua5.4-dev -y
+sudo apt install lua5.4 liblua5.4-dev -y ||
+brew install lua@5.4 || echo "pas de lua pour toi :("
 ```
 
 
