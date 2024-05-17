@@ -18,10 +18,6 @@ l'avez deja fait, j'y ai rajouté des exercices.
 à ce moment precis etait lua5.4, mais allez sur
 [le site du lua](https://www.lua.org/) pour obtenir la verison la plus récente.
 
-4. Ce workshop contient des mots immatures et grossiers (`prout` et `caca`).
-Si vous vous sentez offensés et que vous ne voulez pas afficher ces mots doux,
-affichez à place `fleur` pour prout et `papillon` pour caca.
-
 ### Installation
 
 Faites juste la commande suivante:
@@ -448,12 +444,12 @@ Contient 16 CRE
 ```
 
 La securité avant tout. Si quelqu'un essaie de recuperer la metamethode de
-votre ship, affichez "prout".
+votre ship, affichez "pas de metatable pour toi".
 ```lua
 print(getmetatable(ship))
 ```
 ```
-prout
+pas de metatable pour toi
 ```
 
 Et enfin, créer un nouvel effectif se fait de la maniere suivante:
@@ -493,7 +489,7 @@ local lvl1 = lvl3 >> 1
 lvl1()
 print(#lvl1) -- 4
 print(#lvl3) -- 48
-print(getmetatable(lvl1)) -- prout
+print(getmetatable(lvl1)) -- pas de metatable pour toi
 print(lvl1)
 ```
 ```
@@ -502,7 +498,7 @@ print(lvl1)
 80
 4
 48
-prout
+pas de metatable pour toi
 Vaisseau de niveau 1 (4 CRE/session)
 Contient 4 CRE
 ```
@@ -516,17 +512,17 @@ Vous en faites pas c'est tres simple, vous pouvez ajouter les vaisseaux de
 meme niveau pour monter d'un niveau !
 
 Mais quand vous mergez vos deux vaisseau pour en créer un, ils deviennent ainsi
-des `cacas`, c'est à dire des niveau 0 qui ne peuvent plus miner quoi que ce
+des `poubelles`, c'est à dire des niveau 0 qui ne peuvent plus miner quoi que ce
 soit.
 
-Les cacas sont vidés de tous leurs CRE.
+Les poubelles sont vidés de tous leurs CRE.
 
-A la fin du programme, on dit "Caca ramassée !".
+A la fin du programme, on dit "poubelle ramassée !".
 
 > A la fin du programme, ou quand votre objet est initialisé à nil et que
 > la fonction `collectgarbage("collect")` est appellée.
 
-> Faites attention à ce que ce texte s'affiche seulement pour les cacas, et pas
+> Faites attention à ce que ce texte s'affiche seulement pour les poubelles, et pas
 > tous vos vaisseaux bien sur.
 
 ```lua
@@ -543,12 +539,12 @@ Vaisseau de niveau 1 (4 CRE/session)
 Contient 4 CRE
 Vaisseau de niveau 2 (8 CRE/session)
 Contient 0 CRE
-Vaisseau caca (0 CRE/session)
+Vaisseau poubelle (0 CRE/session)
 Contient 0 CRE
-Caca ramassé !
-Caca ramassé !
+poubelle ramassé !
+poubelle ramassé !
 ```
-Les deux caca ramassés sont les variables a et b.
+Les deux poubelle ramassés sont les variables a et b.
 
 Vous devriez avoir un cas d'erreur lorsque a et b ne sont pas du meme niveau.
 
