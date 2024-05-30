@@ -1,5 +1,9 @@
 <h1 align=center> Lua Workshop </h1>
 
+|Workshop's Difficulty|
+|----------|
+| ▰▱▱▱ Easy |
+
 ## Introduction
 
 Bienvenue dans ce workshop ! Au plat du jour: Le **lua** !
